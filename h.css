@@ -1,7 +1,10 @@
-/* google font popins  */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-/* common style  */
+/*---------------------- 
+responsiv for media query  
+--------------------------*/
+@media only screen and (max-width:600px) {     
+
+    /* common style  */
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -47,10 +50,10 @@ ul li:last-child{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    width: 1050px;
+    width: auto;
 }
 .heading-title{
-    width: 485px;
+    width: auto;
     height: 230px;
     margin: 120px 0 240px 156px;
 }
@@ -62,7 +65,7 @@ ul li:last-child{
     font-size: 64px;
 }
 .banner img{
-    width: 556.01px;
+    width: auto;
     height: 438px;
     margin: 70px 140px 90px 0px;
 }
@@ -78,15 +81,15 @@ ul li:last-child{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap:30px;
-    width: 1050px;
+    width: auto;
     margin: 70px 180px 70px 210px;
 }
 
 .player img{
-    width:100%;
+    width: auto;
 }
 .players{
-    width: 300px;
+    width: auto;
     height: 474px;
     padding: 15px;
     background: #FFFFFF;
@@ -95,7 +98,7 @@ ul li:last-child{
 
 /* cop amerika match style  */
 .copa-amerika{
-    width: 469px;
+    width: auto;
     height: 309px;
     text-align: left;
 }
@@ -105,7 +108,7 @@ ul li:last-child{
 }
 
 .copa-banner img{
-    width: 567px;
+    width: auto;
     height: 427px;
     margin-left: 66px;
 
@@ -127,7 +130,7 @@ footer{
     margin-top: 50px;
 }
 .logo img{
-   width: 483.87px;
+   width: auto;
    height: 110px;
 
 }
@@ -146,7 +149,7 @@ footer{
 }
 
 fieldset{
-    width: 800px;
+    width: auto;
     height: 200px;
     margin: auto;
 }
@@ -163,13 +166,13 @@ legend{
 .next-match{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    width:1000px;
+    width: auto; 
     margin: 0 auto ;
     background-color: lightblue;
    
 }
 .team img{
-width: 300px;
+width: auto; 
 height: 200px;
 padding: 10px;
 }
@@ -178,24 +181,7 @@ padding: 10px;
     padding: 5px;
     background-color: indianred;
     color: white;
-    width: 1000px;
-    margin: auto;
+    width: auto;
     border-radius: 0 0 10px 10px;
 }
-
-/*---------------------- 
-responsiv for media query  
---------------------------*/
-@media only screen and (max-width:600px) {     
-  
-.heading, .all-hilights, .next-match ,.container{
-    grid-template-columns: 1fr;
-}
-footer{
-    width: auto;
-    justify-content: space-around;
-}
-
-
-
 }
